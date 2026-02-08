@@ -26,6 +26,7 @@ dependencies = [
     "pyperclip>=1.8.2",
     "pynput>=1.7.6",
     "click>=8.1.0",
+    "mcp>=1.2.0",
 ]
 
 [project.optional-dependencies]
@@ -38,6 +39,7 @@ dev = [
 
 [project.scripts]
 vox = "vox.cli:main"
+vox-mcp = "vox.mcp_server:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["vox"]
