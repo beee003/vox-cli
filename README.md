@@ -2,6 +2,8 @@
 
 Voice comments for your terminal. Push-to-talk for Claude Code, Cursor, and any CLI.
 
+![vox demo](demo.gif)
+
 ## Install
 
 ```bash
